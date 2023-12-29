@@ -4,8 +4,8 @@ require("@nomiclabs/hardhat-etherscan");
 require('@openzeppelin/hardhat-upgrades');
 
 module.exports = {
-  networks: {
-    testnet: {
+  networks: { shibarium 
+    testnet: { polygon 
       url: process.env.NODE_URL,
       accounts: [process.env.PRIVATE_KEY]
     }
